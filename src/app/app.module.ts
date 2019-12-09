@@ -11,6 +11,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RepoComponent } from './repo/repo.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { DatePipe } from './date.pipe';
+import { GitSearchservicePipe } from './git-searchservice.pipe';
+import { HighlightDirective } from './highlight.directive';
 // import { Highlight } from './highlight.ts.directive';
 // import { Highlight } from './highlight.ts.directive';
 // import { ForksPipe } from './fork.ts.pipe';
@@ -27,6 +29,8 @@ import { DatePipe } from './date.pipe';
     RepoComponent,
     SearchFormComponent,
     DatePipe,
+    GitSearchservicePipe,
+    HighlightDirective,
     // Highlight.Highlight.TsDirective,
     // Highlight.TsDirective,
     // Fork.TsPipe,
