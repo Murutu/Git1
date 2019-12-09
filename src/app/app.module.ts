@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RepoComponent } from './repo/repo.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { DatePipe } from './date.pipe';
 // import { Highlight } from './highlight.ts.directive';
 // import { Highlight } from './highlight.ts.directive';
 // import { ForksPipe } from './fork.ts.pipe';
@@ -25,6 +26,7 @@ import { SearchFormComponent } from './search-form/search-form.component';
     NavbarComponent,
     RepoComponent,
     SearchFormComponent,
+    DatePipe,
     // Highlight.Highlight.TsDirective,
     // Highlight.TsDirective,
     // Fork.TsPipe,
