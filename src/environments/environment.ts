@@ -4,8 +4,10 @@
 
 export const environment = {
   production: false,
-  apiUrl: "https://api.github.com/users/",
-  access_token: "590681e7e1f38e16bda1807521c71620f3e8e55f"
+  apiUrl: "https://github.com/settings/tokens/",
+  // apiRepos:"/repos?access_token=11d7a068202911c2570c30b6466943cf5e3eaf0d",
+  apiKey:"?access_token=84d735f1427262769b0d5d992597a09a52a2e853"
+
 };
 
 /*

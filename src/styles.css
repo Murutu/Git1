@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+
+h1 {
+    text-align: center;
+    
+}
+td, th {
+    text-align: left;
+}
+td i {
+    text-align:center;
+}

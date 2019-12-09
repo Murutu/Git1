@@ -1,17 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule  } from "@angular/forms";
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component'
-import { RepositoryComponent } from './repository/repository.component';
-import { ForksPipe } from './fork.ts.pipe';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RepoComponent } from './repo/repo.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { DatePipe } from './date.pipe';
-import { GitSearchservicePipe } from './git-searchservice.pipe';
 import { HighlightDirective } from './highlight.directive';
 // import { Highlight } from './highlight.ts.directive';
 // import { Highlight } from './highlight.ts.directive';
@@ -21,15 +20,12 @@ import { HighlightDirective } from './highlight.directive';
 @NgModule({
   declarations: [
     AppComponent,
-    RepositoryComponent,
-    ForksPipe,
     AboutComponent,
     HomeComponent,
     NavbarComponent,
     RepoComponent,
     SearchFormComponent,
     DatePipe,
-    GitSearchservicePipe,
     HighlightDirective,
     // Highlight.Highlight.TsDirective,
     // Highlight.TsDirective,
@@ -37,7 +33,9 @@ import { HighlightDirective } from './highlight.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

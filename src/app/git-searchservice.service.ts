@@ -13,14 +13,14 @@ export class GitSearchService {
   username: string;
   user: User;
   repo: Repo;
-  clientid = '57725135f46b31a5c0a3';
-  clientsecret = 'c3f792ac19155004cdb9bc035aa9c579dc01f50c';
+  clientid = '15549cb3355bb1c179ca';
+  clientsecret = '33659006c550060ede856b764408eecb553e803b';
 
 
   constructor(private http: HttpClient) {
     this.user = new User("", "", "", "", "", 0, 0, new Date());
-    this.repo = new Repo("", "", "")
-    this.username = 'Abel-b';
+    this.repo = new Repo("", "", "","","",0,0,new Date())
+    this.username = 'murutu';
 
   }
   userRequest() {
